@@ -24,10 +24,16 @@
 * Apache, MySQL, PHP를 세트로 묶어서 AMP라고 부르는데 나는 Mac OS에서 AMP를 사용하므로 MAMP임.
 
 ## 사용한 데이터 셋: Movies on Netflix, Prime Video, Hulu and Disney+
+* https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney
+* 나는 Netflix, Prime Video, Hulu, Disney+에 있는 영화에 관한 데이터 셋을 선택함.
+* kaggle에서 다운로드 받아 csv 파일을 load하는 방식으로 함.
 
 
 ## 발견한 정보 3가지: 제목, 감독, 개봉연도, 플랫폼
-
+* 검색하는 사람이 다양하게 검색 조건을 조합할 수 있도록 하는 것이 더 맞다고 판단함.
+* 영화 제목, 감독, 개봉연도, 플랫폼을 선택할 수 있음.
+* 간단한 경우의 수 계산을 해보면 가능한 조합은 2 x 2 x 2 x (1 + 4 + 12 + 24 + 1) = 336가지가 됨.
+* 제목은 정확한 제목이 아닌 단어만 넣어도 해당 단어를 포함하는 모든 영화를 찾아줌.
 
 ## 시연 영상
-* [![](http://img.youtube.com/vi/b05k5rehqds/0.jpg)](http://www.youtube.com/watch?v=b05k5rehqds "")
+[![](http://img.youtube.com/vi/b05k5rehqds/0.jpg)](http://www.youtube.com/watch?v=b05k5rehqds "")

@@ -1,7 +1,6 @@
 # 스트리밍 플랫폼에 있는 영화 검색 웹 페이지
 
 ## 개발 환경 소개
-
 ### 데이터베이스: MySQL
 * 수업에서 다뤄본 데이터베이스인 MySQL과 MariaDB 중 어느 것을 선택해야할지 고민함.
 * 2020년 11월 1일 기준으로 [RDBMS 랭킹](https://db-engines.com/en/ranking/relational+dbms)을 보면 MySQL이 2위이고 MariaDB는 8위임.
@@ -13,13 +12,22 @@
 * 그래서 Oracle에서 책임지고 버전 관리를 해주고 있으며 원조격인 MySQL을 한 번 더 사용해보기로 함.
 * MariaDB는 앞서 말했지만 MySQL의 fork 버전이기 때문에 완벽하게 호환됨. 나중에 MariaDB로 바꾸고 싶으면 언제든지 가능함.
 
-### 서버 사이드 언어
+### 서버 사이드 언어: PHP
+* 사용할줄 아는 서버 사이드 스크립트 언어가 PHP밖에 없어서 선택지가 없었음.
 
-### 클라이언트 사이드 언어
+### 클라이언트 사이드 언어: HTML
+* CSS도 1학년 때 간단하게 배웠었으나 하나도 기억이 나질 않아 어쩔 수 없이 HTML만 사용함.
 
-### 웹 서버
+### 웹 서버: Apache
+* Apache는 Linux 계열의 운영체제에서 NCSA httpd라는 초창기 웹 서버를 돌리는 것을 타겟팅하여 개발되었기 때문에 Linux 계열의 운영체제와 함께 할 때 가장 좋다고 함.
+* 현재 맥을 사용하고 있어서 굳이 Ubuntu를 사용하지 않고 Mac OS에서 Apache를 사용함.
+* Apache, MySQL, PHP를 세트로 묶어서 AMP라고 부르는데 나는 Mac OS에서 AMP를 사용하므로 MAMP임.
+
+## 사용한 데이터 셋: Movies on Netflix, Prime Video, Hulu and Disney+
+
 
 ## 발견한 정보 3가지: 제목, 감독, 개봉연도, 플랫폼
 
 
 ## 시연 영상
+* [![](http://img.youtube.com/vi/b05k5rehqds/0.jpg)](http://www.youtube.com/watch?v=b05k5rehqds "")

@@ -28,6 +28,6 @@ IGNORE 1 ROWS;
 * https://medium.com/@andrewpongco/solving-the-mysql-server-is-running-with-the-secure-file-priv-option-so-it-cannot-execute-this-d319de864285
 
 ## 4. 회고
-* (+)
-* (-)
-* (!)
+* (+) 여러가지 검색 조건을 처리해서 SQL문으로 만드는 부분에서 애를 먹었으나 잘 처리함.
+* (-) 웹 페이지 모양이 예뻤으면 좋았을텐데 신경쓰지 못해서 아쉬움.
+* (!) 내가 처음으로 혼자서 아무것도 없이 만들어본 웹페이지라 신기함.
